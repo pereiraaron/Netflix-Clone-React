@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+.row {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.row-cardwrapper {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+.row-cardwrapper::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  width: 100%;
+  margin-right: 10px;
+  object-fit: contain;
+  max-height: 100px;
+  transition: 0.2s ease-in;
+  border-radius: 1.5%;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+.card-large {
+  object-fit: contain;
+  max-height: 250px;
+  width: 100%;
+  border-radius: 1.5%;
+}
+.card-large:hover {
+  transform: scale(1.09);
+}
